@@ -1,0 +1,70 @@
+<style>
+
+  .nav{
+    background-color: #000000;
+    border-radius: 0px 0px 0px 0px  }
+
+  .hi {
+    color: dimgrey;
+    text-indent: 70px;
+    font-size: 20px;
+  }
+
+.Date{
+  font-size: 16px;
+  text-indent: 40px;
+}
+
+h1{
+  font-size: 40px;
+
+}
+.Incubation{
+    width: 300px;
+    background-color: black;
+    height: 5px;
+    width: 400px;
+}
+
+.II{
+  padding-left: 200px;
+
+}
+
+.title{
+  font-size: 35px;
+}
+
+.one{
+  background-color: dimgrey;
+  height: 5px;
+  width: 400px;
+border: solid 1px black;
+}
+
+.three{
+  background-color: black;
+  height: .04%;
+  width: 60%;
+  border: solid 2px dimgray;
+}
+
+.four{
+  background-color: black;
+  height: .4%;
+  width: 75%;
+  border: solid 2px dimgray;
+}
+
+.KiteRunnerImage{
+  border: solid 1px black;
+  height: 16%;
+  width: 25%;
+}
+
+.p1{
+  text-indent: 4% ;
+  margin-left: 20%;
+  font-size: 30px;
+}
+</style>
