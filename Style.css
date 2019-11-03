@@ -71,55 +71,59 @@
   }
 
   .KiteRunnerImage{
-    height: 16%;
-    width: 25%;
+    height: 11%;
+    width: 17%;
     transition-duration: 500ms;
     transition-property: width,height;
     transition-timing-function: ease-out;
   }
 
   .KiteRunnerImage:hover{
-    height: 18%;
-    width: 29%;
+    height: 13%;
+    width: 20%;
   }
 
-.angel{
-  width: 30%;
-  height: auto;
-  transition-duration: 500ms;
-  transition-property: width,height;
-  transition-timing-function: ease-out;
-}
+  .angel{
+    width: 30%;
+    height: auto;
+    transition-duration: 500ms;
+    transition-property: width,height;
+    transition-timing-function: ease-out;
+  }
 
-.angel:hover{
-  width: 40%;
-  height: auto;
-}
+  .angel:hover{
+    width: 40%;
+    height: auto;
+  }
 
-.chains{
-  width: 23%;
-  height: auto;
-  transition-duration: 500ms;
-  transition-property: width,height;
-  transition-timing-function: ease-out;
-}
+  .chains{
+    width: 23%;
+    height: auto;
+    transition-duration: 500ms;
+    transition-property: width,height;
+    transition-timing-function: ease-out;
+  }
 
-.chains:hover{
-  width: 32%;
-  height: auto;
-}
+  .chains:hover{
+    width: 32%;
+    height: auto;
+  }
 
-.brain{
-  width: 20%;
-  height: auto;
-  transition-duration: 500ms;
-  transition-property: width,height;
-  transition-timing-function: ease-out;
-}
+  .brain{
+    width: 20%;
+    height: auto;
+    transition-duration: 500ms;
+    transition-property: width,height;
+    transition-timing-function: ease-out;
+  }
 
-.brain:hover{
-  width: 30%;
-  height: auto;
-}
+  .brain:hover{
+    width: 30%;
+    height: auto;
+  }
+
+  .p1{
+    font-size: 150%;
+  }
 
 </style>
