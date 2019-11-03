@@ -10,75 +10,116 @@
     font-size: 20px;
   }
 
-.Date{
-  font-size: 16px;
-  text-indent: 40px;
-}
+  .Date{
+    font-size: 16px;
+    text-indent: 40px;
+  }
 
-h1{
-  font-size: 40px;
+  h1{
+    font-size: 40px;
 
-}
-.Incubation{
-    width: 300px;
-    background-color: black;
+  }
+  .Incubation{
+      width: 300px;
+      background-color: black;
+      height: 5px;
+      width: 400px;
+  }
+
+  .II{
+    padding-left: 200px;
+
+  }
+
+  .title{
+    font-size: 35px;
+  }
+
+  .one{
+    background-color: dimgrey;
     height: 5px;
     width: 400px;
-}
+    border: solid 1px black;
+  }
 
-.II{
-  padding-left: 200px;
+  .three{
+    background-color: black;
+    height: .04%;
+    width: 10%;
+    border: solid 2px dimgray;
+    transition-duration: 500ms;
+    transition-property: width;
+    transition-timing-function: ease-out;
+  }
 
-}
+  .three:hover {
+      width: 60%;
+  }
 
-.title{
-  font-size: 35px;
-}
+  .four{
+    background-color: black;
+    height: .4%;
+    width: 30%;
+    border: solid 2px dimgray;
+    transition-duration: 500ms;
+    transition-property: width;
+    transition-timing-function: ease-out;
+  }
 
-.one{
-  background-color: dimgrey;
-  height: 5px;
-  width: 400px;
-  border: solid 1px black;
-}
+  .four:hover{
+    width: 75%;
+  }
 
-.three{
-  background-color: black;
-  height: .04%;
-  width: 10%;
-  border: solid 2px dimgray;
-  transition-duration: 500ms;
-  transition-property: width;
-  transition-timing-function: ease-out;
-}
+  .KiteRunnerImage{
+    height: 16%;
+    width: 25%;
+    transition-duration: 500ms;
+    transition-property: width,height;
+    transition-timing-function: ease-out;
+  }
 
-.three:hover {
-    width: 60%;
-}
+  .KiteRunnerImage:hover{
+    height: 18%;
+    width: 29%;
+  }
 
-.four{
-  background-color: black;
-  height: .4%;
+.angel{
   width: 30%;
-  border: solid 2px dimgray;
+  height: auto;
   transition-duration: 500ms;
-  transition-property: width;
+  transition-property: width,height;
   transition-timing-function: ease-out;
 }
 
-.four:hover{
-  width: 75%;
+.angel:hover{
+  width: 40%;
+  height: auto;
 }
 
-.KiteRunnerImage{
-  border: solid 1px black;
-  height: 16%;
-  width: 25%;
+.chains{
+  width: 23%;
+  height: auto;
+  transition-duration: 500ms;
+  transition-property: width,height;
+  transition-timing-function: ease-out;
 }
 
-.p1{
-  text-indent: 4% ;
-  margin-left: 20%;
-  font-size: 30px;
+.chains:hover{
+  width: 32%;
+  height: auto;
 }
+
+.brain{
+  width: 20%;
+  height: auto;
+  transition-duration: 500ms;
+  transition-property: width,height;
+  transition-timing-function: ease-out;
+}
+
+.brain:hover{
+  width: 30%;
+  height: auto;
+}
+
 </style>
