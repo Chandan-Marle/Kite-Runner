@@ -9,8 +9,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="Style.css">
     </head>
-    <body>
-
+    <body onmousedown="mouseDown()">
         <nav class="navbar navbar-inverse" style="background-color: #000000;" class="nav">
             <ul class="nav navbar-nav">
                 <li><a href="Index.html">Home</a></li>
@@ -22,16 +21,19 @@
           </nav>
         <center>
             <h1>The Kite Runner</h1>
-            <hr class = "four">
+            <hr class="four" style="background-color: black; border-color: dimgrey;">
             <img src="Assets/KiteRunner.jpg" alt="Kite Runner Book" class="KiteRunnerImage">
             <br> 
             <h2>Past Sins can be Attoned for Through the Protection and Nurturement of the Youth.</h2>
             <hr class="three">
             <br>
         </center>
-        <p class="p1">
-            We beleive that one can attone for their sins by bringing up the future generation of children to be upstanding individuals
-        </p>
+        <script>
+            var audio = new Audio('Assets/test.wav');
+            function mouseDown() {
+                audio.play();
+            }
+        </script>
     </body>
     
 </html>

@@ -39,21 +39,35 @@ h1{
   background-color: dimgrey;
   height: 5px;
   width: 400px;
-border: solid 1px black;
+  border: solid 1px black;
 }
 
 .three{
   background-color: black;
   height: .04%;
-  width: 60%;
+  width: 10%;
   border: solid 2px dimgray;
+  transition-duration: 500ms;
+  transition-property: width;
+  transition-timing-function: ease-out;
+}
+
+.three:hover {
+    width: 60%;
 }
 
 .four{
   background-color: black;
   height: .4%;
-  width: 75%;
+  width: 30%;
   border: solid 2px dimgray;
+  transition-duration: 500ms;
+  transition-property: width;
+  transition-timing-function: ease-out;
+}
+
+.four:hover{
+  width: 75%;
 }
 
 .KiteRunnerImage{
