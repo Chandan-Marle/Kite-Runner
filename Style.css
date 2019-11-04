@@ -74,47 +74,51 @@
     height: 11%;
     width: 17%;
     transition-duration: 500ms;
-    transition-property: width,height;
+    transition-property: width,height, border-radius;
     transition-timing-function: ease-out;
   }
 
   .KiteRunnerImage:hover{
     height: 13%;
     width: 20%;
+    border-radius: 3%;
   }
 
   .angel{
     width: 30%;
     height: auto;
     transition-duration: 500ms;
-    transition-property: width,height;
+    transition-property: width,height, border-radius;
     transition-timing-function: ease-out;
   }
 
   .angel:hover{
     width: 40%;
     height: auto;
+    border-radius: 3%;
   }
 
   .chains{
-    width: 23%;
+    width: 18%;
     height: auto;
     transition-duration: 500ms;
-    transition-property: width,height;
+    transition-property: width,height, border-radius;
     transition-timing-function: ease-out;
   }
 
   .chains:hover{
-    width: 32%;
+    width: 25%;
     height: auto;
+    border-radius: 3%;
   }
 
   .brain{
     width: 20%;
     height: auto;
     transition-duration: 500ms;
-    transition-property: width,height;
+    transition-property: width,height, border-radius;
     transition-timing-function: ease-out;
+    border-radius: 3%;
   }
 
   .brain:hover{
@@ -123,7 +127,8 @@
   }
 
   .p1{
-    font-size: 150%;
+    font-size: 125%;
+    text-indent: 4%;
   }
 
 </style>
