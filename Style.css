@@ -118,12 +118,12 @@
     transition-duration: 500ms;
     transition-property: width,height, border-radius;
     transition-timing-function: ease-out;
-    border-radius: 3%;
   }
 
   .brain:hover{
     width: 30%;
     height: auto;
+    border-radius: 3%;
   }
 
   .p1{
